@@ -9,46 +9,28 @@
   var delayBeforeReplacingAds = 2000;
   
   // IMGUR settings
-  var imgurApiClientId = '589f5cc4c215981';
+  var imgurApiClientId = 'b8985c983502c63';
   var imgurApiUrl = 'https://api.imgur.com/3/album/';
 
-  // Data about the doge ads
+  // Data about the doged ads
   var dogedAds = [
     {
-      'name': '728x90',
-      'width': 728,
-      'height': 90,
-      'imgurAlbumId': '7KlBQ'
+      'name': 'Logo_ON_Black_500',
+      'width': 500,
+      'height': 500,
+      'imgurAlbumId': 'dogecoindark'
     },
     {
-      'name': '970x90',
-      'width': 970,
-      'height': 90,
-      'imgurAlbumId': '7KlBQ'
+      'name': 'dogs',
+      'width': 662,
+      'height': 863,
+      'imgurAlbumId': 'dogecoindark'
     },
     {
-      'name': '300x250',
-      'width': 300,
-      'height': 250,
-      'imgurAlbumId': 'XKatw'
-    },
-    {
-      'name': '160x600',
-      'width': 160,
-      'height': 600,
-      'imgurAlbumId': 'DKzVu'
-    },
-    {
-      'name': '336x280',
-      'width': 336,
-      'height': 280,
-      'imgurAlbumId': 'XKatw'
-    },
-    {
-      'name': '125x125',
-      'width': 125,
-      'height': 125,
-      'imgurAlbumId': 'XKatw'
+      'name': 'doged-radio-medium',
+      'width': 450,
+      'height': 449,
+      'imgurAlbumId': 'dogecoindark'
     }
   ];
 
