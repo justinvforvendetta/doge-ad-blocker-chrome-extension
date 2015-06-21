@@ -1,4 +1,4 @@
-doge-ad-blocker-chrome-extension
+doged-ad-blocker-chrome-extension
 ================================
 
-Show Doge images instead of ads
+Show DOGED images instead of ads
