@@ -18,19 +18,19 @@
       'name': 'Logo_ON_Black_500',
       'width': 500,
       'height': 500,
-      'imgurAlbumId': 'dogecoindark'
+      'imgurAlbumId': 'OFLmR'
     },
     {
       'name': 'dogs',
       'width': 662,
       'height': 863,
-      'imgurAlbumId': 'dogecoindark'
+      'imgurAlbumId': 'OFLmR'
     },
     {
-      'name': 'doged-radio-medium',
+      'name': 'oLwUR5s',
       'width': 450,
       'height': 449,
-      'imgurAlbumId': 'dogecoindark'
+      'imgurAlbumId': 'OFLmR'
     }
   ];
 
