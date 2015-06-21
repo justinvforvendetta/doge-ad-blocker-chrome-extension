@@ -1,8 +1,8 @@
 chrome.storage.sync.get('disabled', function(value) {
   if (value.disabled) {
-    hideButton('disable-doge');
+    hideButton('disable-doged');
   } else {
-    hideButton('enable-doge');
+    hideButton('enable-doged');
   }
 });
 
@@ -80,11 +80,11 @@ function showButton(elementId) {
 function toggleButtons() {
   chrome.storage.sync.get('disabled', function(value) {
     if (value.disabled) {
-      hideButton('disable-doge');
-      showButton('enable-doge');
+      hideButton('disable-doged');
+      showButton('enable-doged');
     } else {
-      hideButton('enable-doge');
-      showButton('disable-doge');
+      hideButton('enable-doged');
+      showButton('disable-doged');
     }
   });
 }
@@ -92,17 +92,17 @@ function toggleButtons() {
 function disableExtension() {
   chrome.storage.sync.set({'disabled': true}, function() {
     // Notify that we saved.
-    waterfallMessages(['So disable', 'Much ads', 'Wow']);
+    waterfallMessages(['disabled');
     toggleButtons();
   });
 }
-document.getElementById('disable-doge').addEventListener('click', disableExtension);
+document.getElementById('disable-doged').addEventListener('click', disableExtension);
 
 function enableExtension() {
   chrome.storage.sync.set({'disabled': false}, function() {
     // Notify that we saved.
-    waterfallMessages(['Many Doge', 'Such Enable', 'Wow']);
+    waterfallMessages(['enabled']);
     toggleButtons();
   });
 }
-document.getElementById('enable-doge').addEventListener('click', enableExtension);
+document.getElementById('enable-doged').addEventListener('click', enableExtension);
