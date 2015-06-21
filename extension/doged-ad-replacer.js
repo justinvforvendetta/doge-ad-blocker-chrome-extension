@@ -13,7 +13,7 @@
   var imgurApiUrl = 'https://api.imgur.com/3/album/';
 
   // Data about the doge ads
-  var dogeAds = [
+  var dogedAds = [
     {
       'name': '728x90',
       'width': 728,
