@@ -1,12 +1,12 @@
-.doge-ad-blocker-settings {
+.doged-ad-blocker-settings {
   border: 1px solid red;
   margin: 5px;
   width: 300px;
   height: 225px;
-  background-image: url('images/doge.jpg');
+  background-image: url('images/doged.jpg');
   position: relative;
 }
-.doge-ad-blocker-settings:after {
+.doged-ad-blocker-settings:after {
   padding: 10px;
 }
 h1 {
