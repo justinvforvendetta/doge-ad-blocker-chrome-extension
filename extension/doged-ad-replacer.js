@@ -51,6 +51,12 @@
       'imgurAlbumId': '0IBzY'
     },
     {
+      'name': '300x600',
+      'width': 3000,
+      'height': 600,
+      'imgurAlbumId': '0IBzY'
+    },
+    {
       'name': '336x280',
       'width': 336,
       'height': 280,
