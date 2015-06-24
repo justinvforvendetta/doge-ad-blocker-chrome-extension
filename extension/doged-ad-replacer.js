@@ -39,7 +39,7 @@
       'imgurAlbumId': 'GeNZj'
     },
     {
-      'name': '200x050',
+      'name': '200x200',
       'width': 200,
       'height': 200,
       'imgurAlbumId': 'GeNZj'
@@ -52,7 +52,7 @@
     },
     {
       'name': '300x600',
-      'width': 3000,
+      'width': 300,
       'height': 600,
       'imgurAlbumId': '0IBzY'
     },
