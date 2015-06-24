@@ -109,7 +109,7 @@
   chrome.storage.sync.get('disabled', function(value) {
     if (!value.disabled) {
       setTimeout(function() {
-        dogeAds.forEach(function(adData) {
+        dogedAds.forEach(function(adData) {
           if (matchAds(adData.width, adData.height)) {
             requestImages(adData);
           }
