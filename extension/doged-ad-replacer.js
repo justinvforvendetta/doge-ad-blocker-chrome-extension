@@ -15,24 +15,49 @@
   // Data about the doged ads
   var dogedAds = [
     {
-      'name': 'Logo_ON_Black_500',
-      'width': 500,
-      'height': 500,
-      'imgurAlbumId': 'OFLmR'
+      'name': '728x90',
+      'width': 728,
+      'height': 90,
+      'imgurAlbumId': 'CDD9W'
     },
     {
-      'name': 'dogs',
-      'width': 662,
-      'height': 863,
-      'imgurAlbumId': 'OFLmR'
+      'name': '970x90',
+      'width': 970,
+      'height': 90,
+      'imgurAlbumId': 'CDD9W'
     },
     {
-      'name': 'oLwUR5s',
-      'width': 450,
-      'height': 449,
-      'imgurAlbumId': 'OFLmR'
+      'name': '300x250',
+      'width': 300,
+      'height': 250,
+      'imgurAlbumId': 'GeNZj'
+    },
+    {
+      'name': '250x250',
+      'width': 250,
+      'height': 250,
+      'imgurAlbumId': 'GeNZj'
+    },
+    {
+      'name': '160x600',
+      'width': 160,
+      'height': 600,
+      'imgurAlbumId': '0IBzY'
+    },
+    {
+      'name': '336x280',
+      'width': 336,
+      'height': 280,
+      'imgurAlbumId': 'GeNZj'
+    },
+    {
+      'name': '125x125',
+      'width': 125,
+      'height': 125,
+      'imgurAlbumId': 'GeNZj'
     }
   ];
+
 
   function getRandomAd(images) {
     return images[Math.floor(Math.random() * images.length)];
