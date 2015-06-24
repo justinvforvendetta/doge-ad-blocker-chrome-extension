@@ -92,7 +92,7 @@ function toggleButtons() {
 function disableExtension() {
   chrome.storage.sync.set({'disabled': true}, function() {
     // Notify that we saved.
-    waterfallMessages(['disabled');
+    waterfallMessages(['disabled']);
     toggleButtons();
   });
 }
